@@ -1,3 +1,5 @@
-source: rubygems repository http://rubygems.org/
-rails (= 3.0.9)
-sqlite3 (= 1.3.3)
+source 'http://rubygems.org'
+
+gem 'rails', '3.0.9'
+
+gem 'sqlite3', '1.3.3', :group => :development
